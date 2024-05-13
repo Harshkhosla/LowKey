@@ -1,0 +1,387 @@
+/********** Template CSS **********/
+:root {
+  --primary: #f05f40;
+  --light-theme: #ffb99f;
+  --secondary: #E93C05;
+  --tertiary: #555555;
+  --light: #DFE4FD;
+  --dark: #011A41;
+}
+
+.text-theme {
+  color: var(--primary);
+}
+
+.bg-glass {
+  background: #00000095 !important;
+  backdrop-filter: blur(3px);
+}
+
+#navbarCollapse.offcanvas {
+  background-color: transparent;
+}
+
+#about .nav-link {
+  color: white;
+}
+
+.service .nav-link {
+  color: var(--secondary);
+}
+
+#about .nav-tabs .nav-link.active {
+  background-color: var(--secondary);
+  border: 0;
+}
+
+#about .nav-tabs {
+  border-bottom: var(--secondary) solid;
+}
+
+.qoutebtn {
+  padding: 0.6em 1.8em;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--primary);
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  width: fit-content;
+  font-size: 16px;
+  transition: .5s;
+  z-index: 1;
+  font-family: inherit;
+  border-radius: 50px;
+  color: white !important;
+  text-decoration: none;
+}
+
+.qoutebtn::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  transition: .4s ease;
+  display: block;
+  z-index: -1;
+}
+
+.qoutebtn:hover::before {
+  width: 105%;
+}
+
+.qoutebtn:hover {
+  box-shadow: 0 0 15px 7px rgba(255, 255, 255, 0.205);
+  color: var(--secondary) !important;
+  font-weight: 400;
+  background: white;
+  outline: 3px solid var(--primary);
+}
+
+.active {
+  transition: all 0.5s;
+}
+
+.activet:active {
+  transform: scale(0.95);
+}
+
+.bg-theme-light {
+  background-color: var(--light-theme);
+}
+
+.bg-theme {
+  background-color: var(--primary);
+}
+
+/*---------------- service css ------------ */
+
+.servicebox {
+  position: relative;
+  z-index: 99;
+  transition: all 0.3s;
+  backdrop-filter: blur(15px);
+}
+
+.glassall {
+  backdrop-filter: 20px;
+}
+
+.servicebox:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 1px rgba(194, 219, 255, 0.456);
+}
+
+.servicebox::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  filter: blur(0px);
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+  border: 3px solid #031c3f4d;
+  background-color: #051d3f7d;
+  border-radius: 1.8rem;
+}
+
+.serviceboxbtn {
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+}
+
+.serviceicon {
+  position: absolute;
+  top: -25px;
+  left: -15px;
+  width: 80px;
+  height: 80px;
+  background-color: #11365c;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border-radius: -50%;
+}
+
+.service-bg-circle1 {
+  position: absolute;
+  bottom: 200px;
+  left: -70px;
+  width: 25rem;
+  height: 25rem;
+  z-index: 0;
+  border-radius: 50%;
+  filter: blur(5px);
+  /* margin-top: 100px;    */
+  background-color: var(--primary);
+  animation: fly1 4s infinite alternate-reverse;
+}
+
+@keyframes fly1 {
+  0% {
+    transform: translateY(-50px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+.service-bg-circle2 {
+  position: absolute;
+  top: 20%;
+  left: 50rem;
+  width: 20rem;
+  height: 20rem;
+  z-index: 0;
+  border-radius: 50%;
+  filter: blur(130px);
+  background-color: var(--tertiary);
+}
+
+.service-bg-circle3 {
+  position: absolute;
+  top: 0%;
+  left: 50rem;
+  width: 10rem;
+  height: 10rem;
+  z-index: 0;
+  border-radius: 50%;
+  filter: blur(5px);
+  background-color: var(--secondary);
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.service-bg-circle4 {
+  position: absolute;
+  top: 70%;
+  left: 70rem;
+  width: 20rem;
+  height: 20rem;
+  z-index: 0;
+  border-radius: 50%;
+  animation: fly1 4s infinite ease-in-out;
+  filter: blur(5px);
+  background-color: #040c2d;
+}
+
+.service-bg-circle5 {
+  position: absolute;
+  top: 90%;
+  left: 20rem;
+  width: 10rem;
+  height: 10rem;
+  z-index: 0;
+  border-radius: 50%;
+  filter: blur(5px);
+  background-color: #006cefb3;
+}
+
+.cta1 {
+  position: relative;
+  margin: auto;
+  padding: 10px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+}
+
+.cta1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 80%;
+  margin-top: 5px;
+  display: block;
+  border-radius: 50px;
+  background: linear-gradient(to right bottom, #ff5100, #0d0d66);
+  /* background: #43baff; */
+  transition: all 0.3s ease;
+}
+
+.bg-theme-extradark {
+  background-color: #02071a !important;
+  transition: all 0.3s;
+}
+
+.cta1 span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.cta1 i {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #a9c7e5;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
+.servicebox:hover .cta1:before {
+  width: 100%;
+  height: 90%;
+  margin-top: 2px;
+}
+
+.cta1:hover i {
+  transform: translateX(0);
+}
+
+.cta1:active {
+  transform: scale(0.95);
+}
+
+/* Faq Section - Home Page
+------------------------------*/
+#faq {
+  background-color: #f48367;
+}
+
+.faq .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.faq .content p {
+  font-size: 15px;
+  color: rgba(var(--default-color-rgb), 0.7);
+}
+
+.faq .faq-container .faq-item {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 25px 0px rgba(var(--default-color-rgb), 0.1);
+  overflow: hidden;
+}
+
+.faq .faq-container .faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.faq .faq-container .faq-item h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 30px 0 0;
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+}
+
+.faq .faq-container .faq-item h3 .num {
+  color: var(--primary);
+  padding-right: 5px;
+}
+
+.faq .faq-container .faq-item h3:hover {
+  color: var(--primary);
+}
+
+.faq .faq-container .faq-item .faq-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.faq .faq-container .faq-item .faq-content p {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.faq .faq-container .faq-item .faq-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 16px;
+  line-height: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.faq .faq-container .faq-item .faq-toggle:hover {
+  color: var(--primary);
+}
+
+.faq .faq-container .faq-active h3 {
+  color: var(--primary);
+}
+
+.faq .faq-container .faq-active .faq-content {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  opacity: 1;
+  padding-top: 10px;
+}
+
+.faq .faq-container .faq-active .faq-toggle {
+  transform: rotate(90deg);
+  color: var(--primary);
+}
