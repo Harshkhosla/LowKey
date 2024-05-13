@@ -35,7 +35,7 @@ function Footer() {
                             <a target="_blank" href='https://wa.me/+917849890124' className="pb-1 text-white text-decoration-none"><p className='mb-0'>
                                 <i className="fa fa-phone-alt me-3"></i>+91- 7849890124</p></a>
                             <a target="_blank" href="mailto:harshkhosla9945@gmail.com" className="mb-2 text-white text-decoration-none"><p className='pt-2'>
-                                <i className="fa fa-envelope me-3"></i>harshkhosla9945@gmail.com</p></a>
+                                <i className="fa fa-envelope me-3"></i>muskankewlani123@gmail.com</p></a>
                             <div className="d-flex pt-2">
                                 <a className="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
                                     className="fab fa-twitter"></i></a>

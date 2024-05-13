@@ -42,7 +42,7 @@ function Header() {
                         <small className="ms-4"><i className="fa fa-clock text-theme me-2"></i>9.00 am - 9.00 pm</small>
                     </div>
                     <div className="col-lg-6 px-5 text-end">
-                        <small><i className="fa fa-envelope text-theme me-2"></i>harshkhosla9945@gmail.com</small>
+                        <small><i className="fa fa-envelope text-theme me-2"></i>muskankewlani123@gmail.com</small>
                         <small className="ms-4"><i className="fa fa-phone-alt text-theme me-2"></i>+91- 7849890124</small>
                     </div>
                 </div>
