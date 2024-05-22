@@ -49,7 +49,7 @@ function Header() {
 
                 <nav className="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 fadeIn">
                     <Link to="/" className="navbar-brand ms-4 ms-lg-0">
-                        <img src={logo} className="img-fluid" width={100} alt="" />
+                        <img src={logo} className="img-fluid" width={100} alt="Low key It solutions Website development" />
                     </Link>
                     <button type="button" className="navbar-toggler me-4" data-bs-toggle="offcanvas"
                         data-bs-target="#navbarCollapse">

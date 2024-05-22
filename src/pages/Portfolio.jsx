@@ -14,7 +14,7 @@ function Portfolio() {
                 <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img className="w-100 vh-100 object-fit-cover" src="https://www.scnsoft.com/boss/images/4145fd5f-303e-407c-9753-25b18026689fbi-for-200-healthcare-centers-large.jpg" alt="Devcorps" />
+                            <img className="w-100 vh-100 object-fit-cover" src="https://www.scnsoft.com/boss/images/4145fd5f-303e-407c-9753-25b18026689fbi-for-200-healthcare-centers-large.jpg" alt="Low key It solutions Website development" />
                             <div className="carousel-caption" style={{backgroundColor:"#212529" }}>
                                 <div className="container">
                                     <div className="row justify-content-start">
@@ -85,7 +85,7 @@ function Portfolio() {
             <div className="card-body row">
                 <div className='col-md-4' style={{width:"fit-content"}}>
                 <div className="project-img mb-3 ">
-                                    <img className="img-fluid rounded" src={s3} alt=""  height={150} width={150}/>
+                                    <img className="img-fluid rounded" src={s3} alt="Low key It solutions Website development"  height={150} width={150}/>
                                     {/* <a href=""><i className="fa fa-link fa-3x text-theme"></i></a> */}
                 
                                 </div>

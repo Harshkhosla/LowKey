@@ -14,7 +14,7 @@ function Services() {
                 <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img className="w-100 vh-100 object-fit-cover" src="https://www.scnsoft.com/boss/images/4145fd5f-303e-407c-9753-25b18026689fbi-for-200-healthcare-centers-large.jpg" alt="Devcorps" />
+                            <img className="w-100 vh-100 object-fit-cover" src="https://www.scnsoft.com/boss/images/4145fd5f-303e-407c-9753-25b18026689fbi-for-200-healthcare-centers-large.jpg" alt="Low key It solutions Website development" />
                             <div className="carousel-caption" style={{backgroundColor:"#212529" }}>
                                 <div className="container">
                                     <div className="row justify-content-start">
@@ -149,7 +149,7 @@ function Services() {
                         <div className='col-md-6 col-xl-4'>
                             <div className="project-item pe-5 pb-5">
                                 <div className="project-img mb-3">
-                                    <img className="img-fluid rounded" src={s1} alt="" />
+                                    <img className="img-fluid rounded" src={s1} alt="Low key It solutions Website development" />
                                     <a href=""><i className="fa fa-link fa-3x text-theme"></i></a>
                                 </div>
                                 <div className="project-title">
@@ -160,7 +160,7 @@ function Services() {
                         <div className='col-md-6 col-xl-4'>
                             <div className="project-item pe-5 pb-5">
                                 <div className="project-img mb-3">
-                                    <img className="img-fluid rounded" src={s2} alt="" />
+                                    <img className="img-fluid rounded" src={s2} alt="Low key It solutions Website development" />
                                     <a href=""><i className="fa fa-link fa-3x text-theme"></i></a>
                                 </div>
                                 <div className="project-title">
@@ -171,7 +171,7 @@ function Services() {
                         <div className='col-md-6 col-xl-4'>
                             <div className="project-item pe-5 pb-5">
                                 <div className="project-img mb-3">
-                                    <img className="img-fluid rounded" src={s3} alt="" />
+                                    <img className="img-fluid rounded" src={s3} alt="Low key It solutions Website development" />
                                     <a href=""><i className="fa fa-link fa-3x text-theme"></i></a>
                                 </div>
                                 <div className="project-title">

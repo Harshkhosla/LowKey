@@ -12,7 +12,7 @@ function Genie() {
                 <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img className="w-100 vh-100 object-fit-cover" src={s4} alt="Devcorps" />
+                            <img className="w-100 vh-100 object-fit-cover" src={s4} alt="Low key It solutions Website development" />
                             <div className="carousel-caption" style={{ backgroundColor: "rgba(0,0,0,.9)" }}>
                                 <div className="container">
                                     <div className="row justify-content-start">

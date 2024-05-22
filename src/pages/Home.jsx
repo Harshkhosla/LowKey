@@ -177,7 +177,7 @@ function Home() {
                 <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img className="w-100 vh-100 object-fit-cover" src={image1} alt="Devcorps" />
+                            <img className="w-100 vh-100 object-fit-cover" src={image1} alt="Low key It solutions Website development" />
                             <div className="carousel-caption">
                                 <div className="container">
                                     <div className="row justify-content-start">
@@ -196,7 +196,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img className="w-100 vh-100 object-fit-cover" src={image1} alt="Devcorps" />
+                            <img className="w-100 vh-100 object-fit-cover" src={image1} alt="Low key It solutions Website development" />
                             <div className="carousel-caption">
                                 <div className="container">
                                     <div className="row justify-content-start">
@@ -230,7 +230,7 @@ function Home() {
                 <div className="container">
                     <div className="row g-4 align-items-end mb-4">
                         <div className="col-lg-6  " >
-                            <img className="img-fluid rounded" src={aboutimg} />
+                            <img className="img-fluid rounded" src={aboutimg} alt='Low key It solutions Website development'/>
                         </div>
                         <div className="col-lg-6  " data-aos="fade-up"  >
                             <h2 className=" ">We Help Our Clients To Grow Their Business</h2>
@@ -386,7 +386,7 @@ function Home() {
                                         <div className="col-md-6" style={{ minHeight: '350px' }}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute rounded w-100 h-100" src={service1}
-                                                    style={{ objectFit: 'cover' }} alt="" />
+                                                    style={{ objectFit: 'cover' }} alt="Low key It solutions Website development" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -406,7 +406,7 @@ function Home() {
                                         <div className="col-md-6" style={{ minHeight: '350px' }}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute rounded w-100 h-100" src={service2}
-                                                    style={{ objectFit: 'cover' }} alt="" />
+                                                    style={{ objectFit: 'cover' }} alt="Low key It solutions Website development" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -427,7 +427,7 @@ function Home() {
                                         <div className="col-md-6" style={{ minHeight: '350px' }}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute rounded w-100 h-100" src={service3}
-                                                    style={{ objectFit: 'cover' }} alt="" />
+                                                    style={{ objectFit: 'cover' }} alt="Low key It solutions Website development" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -447,7 +447,7 @@ function Home() {
                                         <div className="col-md-6" style={{ minHeight: '350px' }}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute rounded w-100 h-100" src={service4}
-                                                    style={{ objectFit: 'cover' }} alt="" />
+                                                    style={{ objectFit: 'cover' }} alt="Low key It solutions Website development" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -468,7 +468,7 @@ function Home() {
                                         <div className="col-md-6" style={{ minHeight: '350px' }}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute rounded w-100 h-100" src={service2}
-                                                    style={{ objectFit: 'cover' }} alt="" />
+                                                    style={{ objectFit: 'cover' }} alt="Low key It solutions Website development" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -490,7 +490,7 @@ function Home() {
                                         <div className="col-md-6" style={{ minHeight: '350px' }}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute rounded w-100 h-100" src={service3}
-                                                    style={{ objectFit: 'cover' }} alt="" />
+                                                    style={{ objectFit: 'cover' }} alt="Low key It solutions Website development" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -511,7 +511,7 @@ function Home() {
                                         <div className="col-md-6" style={{ minHeight: '350px' }}>
                                             <div className="position-relative h-100">
                                                 <img className="position-absolute rounded w-100 h-100" src={service1}
-                                                    style={{ objectFit: 'cover' }} alt="" />
+                                                    style={{ objectFit: 'cover' }} alt="Low key It solutions Website development" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -669,7 +669,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-2">
-                                        <img src={code} className="img-fluid" alt="" />
+                                        <img src={code} className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">Custom Solutions</h4>
                                     {/* <p >Our custom solutions are tailored to meet your unique business needs, providing specialized and scalable answers to your specific challenges.</p> */}
@@ -685,7 +685,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-2">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/5129/5129557.png" className="img-fluid" alt="" />
+                                        <img src="https://cdn-icons-png.flaticon.com/512/5129/5129557.png" className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">ERP</h4>
                                     {/* <p >Our ERP solutions streamline and integrate your business processes, enabling you to manage resources efficiently and make data-driven decisions.</p> */}
@@ -701,7 +701,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-2">
-                                        <img src="https://e7.pngegg.com/pngimages/714/635/png-clipart-logo-internet-brand-organization-graphics-crm-icon-blue-text.png" className="img-fluid" alt="" />
+                                        <img src="https://e7.pngegg.com/pngimages/714/635/png-clipart-logo-internet-brand-organization-graphics-crm-icon-blue-text.png" className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">CRM</h4>
                                     {/* <p >Our CRM solutions empower your business to build and maintain strong, lasting relationships with your customers. </p> */}
@@ -721,7 +721,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-2">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/2867/2867263.png" className="img-fluid" alt="" />
+                                        <img src="https://cdn-icons-png.flaticon.com/512/2867/2867263.png" className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">CMS</h4>
                                     {/* <p >Our CMS solutions provide a user-friendly and efficient platform for managing and delivering digital content across your organization. With a focus on simplicity and customization</p> */}
@@ -737,7 +737,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-3">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/2103/2103800.png" className="img-fluid" alt="" />
+                                        <img src="https://cdn-icons-png.flaticon.com/512/2103/2103800.png" className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">Automation</h4>
                                     {/* <p >Our automation solutions empower your business to optimize processes, reduce manual effort, and enhance overall efficiency.</p> */}
@@ -753,7 +753,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-2">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/252/252035.png" className="img-fluid" alt="" />
+                                        <img src="https://cdn-icons-png.flaticon.com/512/252/252035.png" className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">Cloud Hosting</h4>
                                     {/* <p >Our cloud hosting solutions provide secure and scalable hosting options that enable your business to leverage the power of the cloud. </p> */}
@@ -769,7 +769,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-2">
-                                        <img src={code} className="img-fluid" alt="" />
+                                        <img src={code} className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">Web Development</h4>
                                     {/* <p >Our web development solutions offer tailored and dynamic websites that represent your brand and engage your audience effectively. With a focus on user experience and performance</p> */}
@@ -785,7 +785,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-2">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/7858/7858975.png" className="img-fluid" alt="" />
+                                        <img src="https://cdn-icons-png.flaticon.com/512/7858/7858975.png" className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">UI UX Design</h4>
                                     {/* <p >Our UI/UX design solutions focus on creating intuitive and visually appealing digital experiences that resonate with your target audience.</p> */}
@@ -801,7 +801,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-2">
-                                        <img src={dm} className="img-fluid" alt="" />
+                                        <img src={dm} className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">Digital Marketing</h4>
                                     {/* <p >Our digital marketing solutions empower your business to build a strong online presence and reach your target audience effectively.</p> */}
@@ -818,7 +818,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-2">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/6119/6119533.png" className="img-fluid" alt="" />
+                                        <img src="https://cdn-icons-png.flaticon.com/512/6119/6119533.png" className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">IOT</h4>
                                     {/* <p >Our IoT solutions enable businesses to harness the power of interconnected devices and data for enhanced operational efficiency and innovation.</p> */}
@@ -834,7 +834,7 @@ function Home() {
                             >
                                 <div className="p-4 h-100 servicebox rounded-5">
                                     <div className="serviceicon p-3">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/7078/7078214.png" className="img-fluid" alt="" />
+                                        <img src="https://cdn-icons-png.flaticon.com/512/7078/7078214.png" className="img-fluid" alt="Low key It solutions Website development" />
                                     </div>
                                     <h4 className="text-end p-2">Inventory Management</h4>
                                     {/* <p >Our inventory management solutions streamline and optimize your inventory control processes, ensuring efficient management and tracking of your stock. With a focus on minimizing costs and maximizing efficiency</p> */}
@@ -939,7 +939,7 @@ function Home() {
       <Link to='/genie_project' className='col-md-6 col-xl-4 text-black'>
                             <div className="project-item pe-5 pb-5">
                                 <div className="project-img mb-3">
-                                    <img className="img-fluid rounded"  src={s7} alt="" />
+                                    <img className="img-fluid rounded"  src={s7} alt="Low key It solutions Website development" />
                                     <a href=""><i className="fa fa-link fa-3x text-theme"></i></a>
                                 </div>
                                 <div className="project-title">
@@ -952,7 +952,7 @@ function Home() {
       <Link to='/stulyfe_project' className='col-md-6 col-xl-4 text-black'>
                             <div className="project-item pe-5 pb-5">
                                 <div className="project-img mb-3">
-                                    <img className="img-fluid rounded"   src={s6} alt="" />
+                                    <img className="img-fluid rounded"   src={s6} alt="Low key It solutions Website development" />
                                     <a href=""><i className="fa fa-link fa-3x text-theme"></i></a>
                                 </div>
                                 <div className="project-title">
@@ -965,7 +965,7 @@ function Home() {
       <Link to='/atms_project' className='col-md-6 col-xl-4 text-black'>
                             <div className="project-item pe-5 pb-5">
                                 <div className="project-img mb-3">
-                                    <img className="img-fluid rounded"  src={s5} alt="" />
+                                    <img className="img-fluid rounded"  src={s5} alt="Low key It solutions Website development" />
                                     <a href=""><i className="fa fa-link fa-3x text-theme"></i></a>
                                 </div>
                                 <div className="project-title">
@@ -978,7 +978,7 @@ function Home() {
       <Link to='/gingko_project' className='col-md-6 col-xl-4 text-black'>
                             <div className="project-item pe-5 pb-5">
                                 <div className="project-img mb-3">
-                                    <img className="img-fluid rounded"  src={s4} alt="" />
+                                    <img className="img-fluid rounded"  src={s4} alt="Low key It solutions Website development" />
                                     <a href=""><i className="fa fa-link fa-3x text-theme"></i></a>
                                 </div>
                                 <div className="project-title">

@@ -10,7 +10,7 @@ function Footer() {
                     <div className="row g-5">
                         <div className="col-lg-3 col-md-6">
                             <div className='' data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1000">
-                                <img src={logo} className="img-fluid" width={250} alt="" />
+                                <img src={logo} className="img-fluid" width={250} alt="Low key It solutions Website development" />
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1000">
