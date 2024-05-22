@@ -311,7 +311,7 @@ function Solutions() {
               
     
     <div className='mt-5'>
-               <h1 className=" mt-1"><span style={{backgroundColor :"rgba(255, 136, 107, 0.95)"}}>Tak</span>e a Moment to Know DevCorps Better</h1>
+               <h1 className=" mt-1"><span style={{backgroundColor :"rgba(255, 136, 107, 0.95)"}}>Tak</span>e a Moment to Know Lowkey Better</h1>
                <ul style={{ listStyle: 'none', padding: '0' }}>
       <li style={listItemStyle}>
         <span style={dotStyle}></span>

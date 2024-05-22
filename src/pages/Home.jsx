@@ -1044,7 +1044,7 @@ function Home() {
                                     <div className="btn-square bg-white border rounded-circle">
                                         <i className="fa fa-quote-right fa-2x text-theme"></i>
                                     </div>
-                                    "I stumbled upon devcorps while searching for a solution to streamline our business processes, and boy, am I glad I did! This platform has been an absolute game-changer for our company.
+                                    "I stumbled upon lowkey while searching for a solution to streamline our business processes, and boy, am I glad I did! This platform has been an absolute game-changer for our company.
 
 
                                 </div>

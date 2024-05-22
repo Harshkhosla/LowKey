@@ -55,7 +55,7 @@ function Footer() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center  mb-3 mb-md-0">
-                            &copy; <a className=" text-decoration-none border-bottom" href="#">DevCorps</a>, All Right Reserved.
+                            &copy; <a className=" text-decoration-none border-bottom" href="#">Lowkey</a>, All Right Reserved.
                         </div>
                         {/* <div className="col-md-6 text-center text-md-end">
                             Designed By <a className=" text-decoration-none border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a

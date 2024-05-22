@@ -76,7 +76,7 @@ function Header() {
                                            
                                         </div>
                                     </div> */}
-                                     <Link to="http://139.59.236.50/Portfolio/Devcorps%20Company%20Profile.pdf" className="nav-item nav-link">Portfolio</Link>
+                                     {/* <Link to="http://139.59.236.50/Portfolio/Devcorps%20Company%20Profile.pdf" className="nav-item nav-link">Portfolio</Link> */}
                                     <Link to="/#business-solution" className="nav-item nav-link">Business Solutions</Link>
                                     <Link to="/#technologies" className="nav-item nav-link">Technlogies</Link>
                                     <Link to="/#contact" className="nav-item nav-link">Lets Talk!</Link>
